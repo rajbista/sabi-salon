@@ -17,7 +17,7 @@ function ContactForm() {
       <h2>Contact Us</h2>
       <p>
         If you have any questions please fill out the form below or call us at:
-        <a href="tel:331-385-8356"> (331) 385-8356</a>
+        <a href="tel:630-888-2098"> (331) 385-8356</a>
       </p>
       <form onSubmit={handleSubmit}>
         <input

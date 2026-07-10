@@ -24,8 +24,8 @@ const NavBar = () => {
     >
       <Link href="/">
         <Image
-          src="/sabi.png"
-          alt="Logo"
+          src="/logo_no-buffer.png"
+          alt="SABI SALON Logo"
           width={155}
           height={45}
           style={{

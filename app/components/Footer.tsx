@@ -39,8 +39,8 @@ const Footer = () => {
 
       <section className="collapsible__footer footer__brand">
         <Image
-          src="/sabi.png"
-          alt="Logo"
+          src="/logo_no-buffer.png"
+          alt="SABI SALON Logo"
           width={155}
           height={45}
           style={{
