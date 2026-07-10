@@ -6,20 +6,20 @@ interface Props {
 }
 const Footer = () => {
   const contact = [
-    { ref: "#", label: "2982 Ogden Ave, Aurora, IL 60504" },
-    { ref: "#", label: "Phone: (331) 385-8356" },
-    { ref: "#", label: "sabibrowandbeauty@gmail.com" },
+    { ref: "#", label: "1276 N Lake St, Aurora, IL 60506" },
+    { ref: "#", label: "Phone: (630) 888-2098" },
+    { ref: "#", label: "thesabisalon@gmail.com" },
   ];
   const businessHours = [
     { ref: "#", label: "MONDAY - SATURDAY" },
     { ref: "#", label: " 10 AM - 7 PM" },
     { ref: "#", label: "SUNDAY" },
-    { ref: "#", label: "11 AM - 5 PM" },
+    { ref: "#", label: "Closed" },
   ];
   const followUs = [
-    { ref: "https://www.instagram.com/sabibrowandbeauty/", label: "InstaGram" },
-    { ref: "https://www.facebook.com/sabibrowandbeauty", label: "Facebook" },
-    { ref: "https://www.tiktok.com/@sabibrowandbeauty", label: "TikTok" },
+    { ref: "https://www.instagram.com/sabisalon/", label: "InstaGram" },
+    { ref: "https://www.facebook.com/sabisalon", label: "Facebook" },
+    { ref: "https://www.tiktok.com/@sabisalon", label: "TikTok" },
   ];
 
   return (

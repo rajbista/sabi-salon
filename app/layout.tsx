@@ -10,8 +10,9 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SABI Brow & Beauty",
-  description: "Beauty Salon in Aurora, Naperville, Plainfield, Oswego",
+  title: "SABI SALON",
+  description:
+    "Beauty Salon in Aurora, IL 60506. Eyebrow Threading, Waxing, Women Hair cut, Hair Removal, Eyelashes, Facial, Permanent Makeup, Henna.",
 };
 
 export default function RootLayout({
@@ -23,27 +24,24 @@ export default function RootLayout({
     <html lang="en" className={inter.className}>
       <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="canonical" href="https://www.sabibrowandbeauty.com/" />
+      <link rel="canonical" href="https://www.sabisalon.com/" />
       <link rel="icon" href="/sabi.png" />
-      <title>
-        SABI Brow & Beauty - Beauty Salon in Aurora, Naperville, Plainfield,
-        Oswego, North Aurora, Montgomery, Yorkville.
-      </title>
+      <title>SABI SALON - Beauty Salon in Aurora, IL 60506.</title>
       <meta
         name="description"
-        content="Beauty Salon offering Eyebrow Threading, Waxing, Women Hair cut, Hair Removal, Eyelashes, Facial, Henna in Aurora, Naperville, Illinois. Affordable beauty services."
+        content="Beauty Salon offering Eyebrow Threading, Waxing, Women Hair cut, Hair Removal, Eyelashes, Facial, Permanent Makeup, Henna in Aurora, Naperville, Illinois. Affordable beauty services."
       />
       <meta
         property="og:title"
-        content="Beauty Salon for Eyebrow Threading, Waxing, Women hair cut, Hair removal, Eyelashes, Facial, Henna"
+        content="Beauty Salon for Eyebrow Threading, Waxing, Women hair cut, Hair removal, Eyelashes, Facial, Permanent Makeup, Henna"
       />
       <meta
         property="og:description"
-        content="Beauty Salon | Eyebrow Threading | Waxing | Women hair cut | Hair removal | Eyelashes | Facial | Henna in Aurora, Naperville, Illinois"
+        content="Beauty Salon | Eyebrow Threading | Waxing | Women hair cut | Hair removal | Eyelashes | Permanent Makeup | Facial | Henna in Aurora, Naperville, Illinois"
       />
       <meta property="og:type" content="Website" />
       <meta property="og:image" content="/sabi.png" />
-      <meta property="og:url" content="http://sabibrowandbeauty.com" />
+      <meta property="og:url" content="http://sabisalon.com" />
       <meta
         name="google-site-verification"
         content="IZpAWiDgWmWSrmdnJBYZEvLzQpG0zHaJuQJFCybmcXA"

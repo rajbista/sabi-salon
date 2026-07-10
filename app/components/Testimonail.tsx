@@ -3,9 +3,9 @@ import TestimonialItem from "../components/TestimonialItem";
 const Testimonail = () => {
   const data = [
     {
-      author: "Raj Bista",
+      author: "BIJA",
       content:
-        "Had an underarm waxing at SABI Brow & Beauty today. The salon was clean and inviting, and staff were friendly. I'm very happy with the service and will definitely be back for more services. Highly recommend!!",
+        "Had an underarm waxing at SABI SALON today. The salon was clean and inviting, and staff were friendly. I'm very happy with the service and will definitely be back for more services. Highly recommend!!",
     },
     // {
     //   author: "Zareen Skoien",

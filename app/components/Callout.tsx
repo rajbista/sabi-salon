@@ -6,11 +6,11 @@ const Callout = () => {
           <div className="callout__content">
             <h2 className="callout__heading">Ready to make an Appointment?</h2>
             <p>
-              Call us: (331) 385-8356
-              <a href="tel:331-385-8356" />
+              Call us: (630) 888-2098
+              <a href="tel:630-888-2098" />
             </p>
           </div>
-          <a href="tel:331-385-8356" className="btn btn--accent">
+          <a href="tel:630-888-2098" className="btn btn--accent">
             Get Appointment
           </a>
         </div>
