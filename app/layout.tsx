@@ -25,11 +25,11 @@ export default function RootLayout({
       <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="canonical" href="https://www.sabisalon.com/" />
-      <link rel="icon" href="/sabi.png" />
+      <link rel="icon" href="https://sabisalon.com/logo_no-buffer.png" />
       <title>SABI SALON - Beauty Salon in Aurora, IL 60506.</title>
       <meta
         name="description"
-        content="Beauty Salon offering Eyebrow Threading, Waxing, Women Hair cut, Hair Removal, Eyelashes, Facial, Permanent Makeup, Henna in Aurora, Naperville, Illinois. Affordable beauty services."
+        content="Beauty Salon offering Eyebrow Threading, Waxing, Women Hair cut, Hair Removal, Eyelashes, Facial, Permanent Makeup, Henna in Aurora, IL 60506. Affordable beauty services."
       />
       <meta
         property="og:title"
@@ -37,11 +37,14 @@ export default function RootLayout({
       />
       <meta
         property="og:description"
-        content="Beauty Salon | Eyebrow Threading | Waxing | Women hair cut | Hair removal | Eyelashes | Permanent Makeup | Facial | Henna in Aurora, Naperville, Illinois"
+        content="Beauty Salon | Eyebrow Threading | Waxing | Women hair cut | Hair removal | Eyelashes | Permanent Makeup | Facial | Henna in Aurora, IL 60506. Affordable beauty services."
       />
       <meta property="og:type" content="Website" />
-      <meta property="og:image" content="/sabi.png" />
-      <meta property="og:url" content="http://sabisalon.com" />
+      <meta
+        property="og:image"
+        content="https://sabisalon.com/logo_no-buffer.png"
+      />
+      <meta property="og:url" content="https://sabisalon.com" />
       <meta
         name="google-site-verification"
         content="IZpAWiDgWmWSrmdnJBYZEvLzQpG0zHaJuQJFCybmcXA"

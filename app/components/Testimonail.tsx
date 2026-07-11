@@ -3,10 +3,36 @@ import TestimonialItem from "../components/TestimonialItem";
 const Testimonail = () => {
   const data = [
     {
-      author: "BIJA",
+      author: "MARIA",
       content:
-        "Had an underarm waxing at SABI SALON today. The salon was clean and inviting, and staff were friendly. I'm very happy with the service and will definitely be back for more services. Highly recommend!!",
+        "I had my eyebrow threading done at SABI SALON and loved the results. My brows looked clean and beautifully shaped. The staff was friendly and professional. I will definitely be back!",
     },
+    {
+      author: "SOFIA",
+      content:
+        "I came in for a facial and had a wonderful experience. My skin felt fresh, smooth, and glowing afterward. The salon was very clean and relaxing. Highly recommend!",
+    },
+    {
+      author: "NEHA",
+      content:
+        "I got a haircut and highlights at SABI SALON and absolutely loved the results. They listened to what I wanted and made my hair look beautiful. I will definitely come back!",
+    },
+    {
+      author: "ISABELLA",
+      content:
+        "I had my eyelashes done at SABI SALON and they turned out beautiful and natural-looking. The service was professional, relaxing, and comfortable. Great experience!",
+    },
+    {
+      author: "VALENTINA",
+      content:
+        "I came in for waxing and had a great experience. The salon was clean, the staff was friendly, and the service was quick and professional. I highly recommend SABI SALON!",
+    },
+    {
+      author: "GABRIELA",
+      content:
+        "Amazing experience! I had my eyebrows threaded and tinted, and they came out exactly how I wanted. Friendly staff, beautiful salon, and great service. I will definitely be returning!",
+    },
+
     // {
     //   author: "Zareen Skoien",
     //   content:

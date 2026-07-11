@@ -17,44 +17,51 @@ const Service = () => {
   const data = [
     {
       icon: "easy",
-      title: "HAIR",
+      title: "BROW & FACIAL THREADING",
       content:
-        "Our hair services for women include professional styling, cutting, and treatments tailored to your preferences. From trims to transformative makeovers, we ensure healthy, beautiful hair that enhances your look.",
+        "Get beautifully shaped brows and smooth skin at SABI SALON in Aurora, IL. We remove unwanted facial hair using traditional cotton thread or waxing for clean, precise, and natural-looking results. Choose the method that works best for your skin and preference.",
+      picture: "threading.png",
+    },
+    {
+      icon: "clock",
+      title: "EYELASHES SERVICES",
+      content:
+        "Enhance your natural beauty with professional eyelash services at SABI SALON in Aurora, IL. From lash extensions and lash lifts to lash tinting, we create beautiful, natural-looking lashes customized to your eye shape and style.",
+      picture: "eyelashes.webp",
+    },
+    {
+      icon: "easy",
+      title: "HAIR SERVICES",
+      content:
+        "Refresh your look with professional women’s hair services at SABI SALON in Aurora, IL. We offer haircuts, styling, coloring, highlights, keratin treatments, and hair care services customized to your hair type, style, and needs.",
       picture: "hair.jpg",
     },
     {
       icon: "easy",
-      title: "THREADING",
+      title: "BODY WAXING",
       content:
-        "Eyebrow threading is a traditional technique of eyebrow shaping and hair removal practiced for the centuries among the women of Asia and middle eastern countries. It is an alternative to waxing and tweezing, especially for sensitive skins.",
-      picture: "threading.png",
+        "Enjoy smooth, soft skin with professional body waxing services at SABI SALON in Aurora, IL. We offer Brazilian waxing, bikini waxing, underarm waxing, leg waxing, arm waxing, full body waxing, and more with gentle care for clean, long-lasting results.",
+      picture: "waxing.png",
     },
     {
-      icon: "wordpress",
-      title: "WAXING",
+      icon: "easy",
+      title: "PERMANENT MAKEUP",
       content:
-        "Experience smooth and hair-free skin with our top-notch body waxing services. We use high-quality products for a comfortable and effective waxing experience.",
-      picture: "wax.png",
-    },
-    {
-      icon: "clock",
-      title: "EYELASHES",
-      content:
-        "Enhance your eyes with our eyelash services, including extensions and lifts. Our trained technicians create stunning, natural-looking lashes that complement your unique beauty.",
-      picture: "makeup.png",
+        "Wake up looking effortlessly beautiful with professional permanent makeup at SABI SALON in Aurora, IL. We offer microblading, powder brows, shade & blade, permanent eyeliner, and lash line enhancement for natural-looking, long-lasting results customized to your features.",
+      picture: "permanent_makeup.webp",
     },
     {
       icon: "computer",
-      title: "FACIALS",
+      title: "FACIAL & SKINCARE",
       content:
-        "Indulge in our rejuvenating facials designed to pamper your skin and address specific concerns. We use premium skincare products to leave your skin refreshed and glowing.",
+        "Refresh and nourish your skin with professional facials at SABI SALON in Aurora, IL. We offer customized skincare treatments for deep cleansing, hydration, brightening, and relaxation to help your skin look healthy, smooth, and naturally glowing.",
       picture: "facial.png",
     },
     {
       icon: "clock",
-      title: "HENNA",
+      title: "HENNA & BRIDAL SERVICES",
       content:
-        "Express your style with our intricate henna and tattoo artistry. Whether it's a special occasion or a personal statement, our skilled artists create beautiful and lasting designs.",
+        "Celebrate your special day with professional henna and bridal beauty services at SABI SALON in Aurora, IL. We offer custom henna designs, bridal makeup, hairstyling, and personalized beauty services to help you look and feel beautiful for weddings and special occasions.",
       picture: "henna.png",
     },
   ];
