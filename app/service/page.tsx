@@ -41,7 +41,7 @@ const Service = () => {
       title: "BODY WAXING",
       content:
         "Enjoy smooth, soft skin with professional body waxing services at SABI SALON in Aurora, IL. We offer Brazilian waxing, bikini waxing, underarm waxing, leg waxing, arm waxing, full body waxing, and more with gentle care for clean, long-lasting results.",
-      picture: "waxing.",
+      picture: "waxing.png",
     },
     {
       icon: "easy",
@@ -67,7 +67,7 @@ const Service = () => {
   ];
   return (
     <section className="container services">
-      {/* <h2>OUR SERVICES</h2> */}
+      <h1>OUR SERVICES</h1>
 
       {data.map((item, index) => (
         <ServiceCard

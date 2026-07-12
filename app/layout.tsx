@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "./css/styles.css";
@@ -12,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "SABI SALON",
   description:
-    "Beauty Salon in Aurora, IL 60506. Eyebrow Threading, Waxing, Women Hair cut, Hair Removal, Eyelashes, Facial, Permanent Makeup, Henna.",
+    "Professional beauty salon offering threading, waxing, eyelashes, skincare, hair services, and permanent makeup in Aurora, Illinois.",
 };
 
 export default function RootLayout({
@@ -49,7 +50,25 @@ export default function RootLayout({
         name="google-site-verification"
         content="IZpAWiDgWmWSrmdnJBYZEvLzQpG0zHaJuQJFCybmcXA"
       />
+
       <body>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18161433747"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-ads-tag" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+              window.dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+            gtag('config', 'AW-18161433747');
+          `}
+        </Script>
         <NavBar />
         <main>
           {children}

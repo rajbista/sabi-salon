@@ -1,3 +1,4 @@
+import Link from "next/link";
 const Callout = () => {
   return (
     <div className="container block">
@@ -10,9 +11,15 @@ const Callout = () => {
               <a href="tel:630-888-2098" />
             </p>
           </div>
-          <a href="tel:630-888-2098" className="btn btn--accent">
+          {/* <a href="tel:630-888-2098" className="btn btn--accent">
             Get Appointment
-          </a>
+          </a> */}
+          {/* <Link to="/appointment" className="btn btn--accent">
+            Get Appointment
+          </Link> */}
+          <Link href="/appointment" className="btn btn--accent">
+            Get Appointment
+          </Link>
         </div>
       </div>
     </div>

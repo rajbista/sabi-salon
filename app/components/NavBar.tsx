@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { MdMenu, MdClose } from "react-icons/md";
+import Callout from "./Callout";
 
 const NavBar = () => {
   let [isCollapse, setCollapse] = useState(true);
@@ -45,6 +46,9 @@ const NavBar = () => {
       </div>
 
       <ul className="list nav__list collapsible__content">
+        <Link href="/appointment" className="btn btn--outline">
+          Get Appointment
+        </Link>
         {links.map((link) => (
           <li
             key={link.label}
