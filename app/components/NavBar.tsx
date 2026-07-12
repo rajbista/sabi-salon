@@ -4,13 +4,14 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { MdMenu, MdClose } from "react-icons/md";
 import Callout from "./Callout";
+import BookAppointmentButton from "./BookAppointmentButton";
 
 const NavBar = () => {
   let [isCollapse, setCollapse] = useState(true);
 
   const links = [
     { label: "Home", href: "/" },
-    { label: "Appointment", href: "/appointment" },
+    // { label: "Appointment", href: "/appointment" },
     { label: "Gift Card", href: "/offer" },
     { label: "Contact", href: "/contact" },
   ];
@@ -46,9 +47,6 @@ const NavBar = () => {
       </div>
 
       <ul className="list nav__list collapsible__content">
-        <Link href="/appointment" className="btn btn--outline">
-          Get Appointment
-        </Link>
         {links.map((link) => (
           <li
             key={link.label}
@@ -59,6 +57,7 @@ const NavBar = () => {
           </li>
         ))}
       </ul>
+      <BookAppointmentButton name="Book Appointment" />
     </nav>
   );
 };

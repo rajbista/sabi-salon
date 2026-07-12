@@ -1,5 +1,4 @@
 import Icon from "./Icon";
-import Link from "./Link";
 
 interface Props {
   icon?: string;

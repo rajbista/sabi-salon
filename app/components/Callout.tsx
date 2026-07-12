@@ -1,4 +1,5 @@
 import Link from "next/link";
+import BookAppointmentButton from "./BookAppointmentButton";
 const Callout = () => {
   return (
     <div className="container block">
@@ -17,9 +18,8 @@ const Callout = () => {
           {/* <Link to="/appointment" className="btn btn--accent">
             Get Appointment
           </Link> */}
-          <Link href="/appointment" className="btn btn--accent">
-            Get Appointment
-          </Link>
+          
+          <BookAppointmentButton name="Book Appointment" />
         </div>
       </div>
     </div>

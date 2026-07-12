@@ -67,7 +67,9 @@ const Service = () => {
   ];
   return (
     <section className="container services">
-      <h1>OUR SERVICES</h1>
+      <header className="block__header" data-aos="fade-up">
+        <h2>OUR SERVICES</h2>
+      </header>
 
       {data.map((item, index) => (
         <ServiceCard
