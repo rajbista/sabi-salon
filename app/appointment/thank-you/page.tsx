@@ -1,5 +1,5 @@
 import Link from "next/link";
-import GoogleAppointmentConversion from "@/components/GoogleAppointmentConversion";
+import GoogleAppointmentConversion from "../../components/GoogleAppointmentConversion";
 
 export default function AppointmentThankYouPage() {
   return (
