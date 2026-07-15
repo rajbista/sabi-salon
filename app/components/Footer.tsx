@@ -17,9 +17,9 @@ const Footer = () => {
     { ref: "#", label: "Closed" },
   ];
   const followUs = [
-    { ref: "https://www.instagram.com/sabisalon/", label: "InstaGram" },
-    { ref: "https://www.facebook.com/sabisalon", label: "Facebook" },
-    { ref: "https://www.tiktok.com/@sabisalon", label: "TikTok" },
+    { ref: "https://www.instagram.com/sabi_salom/", label: "InstaGram" },
+    { ref: "https://www.facebook.com/thesabisalon/", label: "Facebook" },
+    { ref: "https://www.tiktok.com/@thesabisalon", label: "TikTok" },
   ];
 
   return (
